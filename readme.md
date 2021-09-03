@@ -1,34 +1,36 @@
-Requirements
-============
+# Refereum Miner
 
-- node.js
-- chrome
+## Requirements
 
-Preperation
-===========
+- NodeJS
+- Chromium
 
-In this dir:
+## Preparation
 
-    npm install
-    node index.js
+Run the following commands:
 
-Then need to login. Once you logged in, your session is in `./userData` folder.
+```sh
+npm install
+node index.js
+```
 
-Run
-===
+then log in using your credentials. Once you logged in, your session will live in `./userData` folder.
 
-Give a following command again and let it mine and forget:
+## Run
 
-    node index.js
+> Run the following command again and let it mine and forget:
 
-Run headless
-------------
+```sh
+node index.js
+```
 
-When you give `headless: true` in `puppeteer.launc` function in code, puppeteer launches headless browser and runs code on it. It means it isn't needed GUI anymore, only in CLI. It can run in server without GUI and eats less resources of your pressious.
+## Run headless
 
-Check
+When you pass `headless: true` in `puppeteer.launch` function in the code, Puppeteer launches headless browser and runs code on it. It means that it doesn't need GUI, runs only on command-line interface. It can run in server without GUI and eats less resources of your pressious.
+
+## Check
 =====
 
-When you runs this hedlessly, how to check what's going on. In `exmaple.png`, it takes screenshot every 5 secons.
+When you run headlessly, how to check what's going on. In `example.png`, it takes screenshot every 5 seconds.
 
 Good luck and get rich :smirk:
