@@ -1,0 +1,13 @@
+{
+  "name": "rfr_miner",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "puppeteer": "^9.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "khaschuluu.m@gmail.com",
+  "license": "ISC"
+}
